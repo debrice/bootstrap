@@ -21,6 +21,8 @@ $pink: #ff5b77;
 $purple: #7f8fa4;
 $cloudy: #ecf1f5;
 
+$dark-blue: #556270;
+
 // Create grayscale
 $gray-dark: #333c48;
 $gray: #7f8fa4;
@@ -29,7 +31,7 @@ $gray-lighter: #d3dbe5;
 $gray-lightest: #f7f7f9;
 
 // Reassign color vars to semantic color scheme
-$brand-primary: $diluted-blue;
+$brand-primary: $dark-blue;
 $brand-success: $green;
 $brand-info: $blue;
 $brand-warning: $orange;
@@ -45,11 +47,9 @@ $input-bg-disabled: $gray-lightest;
 
 $custom-select-disabled-color:      $gray-lighter;
 
+$enable-shadows: true;
 
-$font-size-lg: 1.1rem;
-$font-size-base: .85rem;
-$font-size-sm: .775rem;
-$font-size-xs: .70rem;
+$breadcrumb-bg: transparent;
 
 $btn-primary-color: rgba($white, .8);
 $btn-info-color: rgba($white, .8);
@@ -57,12 +57,10 @@ $btn-success-color: rgba($white, .8);
 $btn-warning-color: rgba($white, .8);
 $btn-danger-color: rgba($white, .8);
 
-$btn-font-weight: bold;
+$btn-font-weight: normal;
 $btn-padding-y: .7rem;
 
-.btn {
-  font-size: .8rem !important;
-}
+$headings-font-weight: 200;
 
 .custom-control-indicator {
   top: .1rem !important;
