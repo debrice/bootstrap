@@ -44,6 +44,10 @@ $link-color: $blue;
 $body-bg: $cloudy;
 $body-color: $gray-dark;
 
+$border-radius: .2rem;
+$border-radius-lg: .3rem;
+$border-radius-sm: .2rem;
+
 $input-border-color: $gray-lighter;
 $input-color: $gray-dark;
 $input-bg-disabled: $gray-lightest;
@@ -62,7 +66,6 @@ $btn-warning-color: rgba($white, .8);
 $btn-danger-color: rgba($white, .8);
 
 $btn-font-weight: normal;
-// $btn-padding-y: .7rem;
 
 $headings-font-weight: 200;
 
@@ -81,7 +84,8 @@ body label {
 }
 
 
-$dropdown-link-hover-bg: $gray-lighter;
+$dropdown-link-hover-bg: $dark-blue;
+$dropdown-link-hover-color: rgba(255, 255, 255, .9);
 $dropdown-margin-top: .4rem;
 $dropdown-item-padding-x: .5rem;
 
