@@ -72,11 +72,11 @@ $btn-secondary-border: $cloudy;
 $btn-secondary-color: $dark-blue;
 
 .dropdown-toggle {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='1792' height='1792' fill='%236E6F89' viewBox='0 0 1792 1792' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1408 704q0 26-19 45l-448 448q-19 19-45 19t-45-19l-448-448q-19-19-19-45t19-45 45-19h896q26 0 45 19t19 45z'/%3E%3C/svg%3E");
-  background-position: right 10px center;
-  background-repeat: no-repeat;
-  background-size: auto 50%;
   padding-right: 30px !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='1792' height='1792' fill='%236E6F89' viewBox='0 0 1792 1792' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1408 704q0 26-19 45l-448 448q-19 19-45 19t-45-19l-448-448q-19-19-19-45t19-45 45-19h896q26 0 45 19t19 45z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: auto 50%;
 }
 
 .dropdown-toggle::after {
@@ -119,7 +119,7 @@ $dropdown-item-padding-x: .5rem;
   background-color: #fff;
 }
 
-input.form-control:placeholder-shown {
-  background: rgba(0, 20, 100,.03);
-  font-weight: 100!important;
+.form-control:placeholder-shown {
+  font-weight: 100 !important;
+  background: rgba(0, 20, 100, .03);
 }
