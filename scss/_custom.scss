@@ -21,7 +21,7 @@ $pink: #ff5b77;
 $purple: #7f8fa4;
 $cloudy: #ecf1f5;
 
-$dark-blue: #556270;
+$dark-blue: #5593C5;
 
 // Create grayscale
 $gray-dark: #333c48;
@@ -69,7 +69,7 @@ $btn-font-weight: normal;
 
 $btn-secondary-bg: $cloudy;
 $btn-secondary-border: $cloudy;
-$btn-secondary-color: $dark-blue;
+$btn-secondary-color: $gray;
 
 .dropdown-toggle {
   padding-right: 30px !important;
@@ -88,7 +88,6 @@ $headings-font-weight: 200;
 .custom-control-indicator {
   top: .1rem !important;
 }
-
 
 .description {
   color: $gray;
@@ -119,6 +118,7 @@ $dropdown-item-padding-x: .5rem;
   background-color: #fff;
 }
 
+select.form-control.placeholder-shown,
 .form-control:placeholder-shown {
   font-weight: 100 !important;
   background-color: rgba(0, 20, 100, .03);
